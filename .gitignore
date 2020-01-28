@@ -1,0 +1,6 @@
+.next
+.serverless
+node_modules
+package-lock.json
+config/aws-config.js
+config/config.js
