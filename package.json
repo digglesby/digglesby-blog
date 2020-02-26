@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "bash prod_path.sh && serverless deploy && bash dev_path.sh",
+    "deploy": "bash path_prod.sh && serverless deploy && bash path_dev.sh",
     "remove": "serverless remove"
   },
   "keywords": [],
