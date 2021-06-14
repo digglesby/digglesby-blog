@@ -31,7 +31,7 @@ class MyWork extends React.Component {
                   Hello! My name is Curtis Ward.
                   I&apos;ve been developing software and hacking on projects since 2009.
                   I&apos;m passionate about building tools that connect people.
-                  The following are a breif example of websites and projects I have worked on over time, more information is avaible in <a href='https://docs.google.com/document/d/1vhwH7axBRgfhWjD5VN-RhfLr2CxDIAPINlk-V9Kmfs0/edit?usp=sharing'>my full resume.</a>
+                  The following are a breif example of websites and projects I have worked on over time, more information is avaible in <a href='https://drive.google.com/file/d/16lBRLFPu2UFYN17_O1qmniHT_ArbR9zW/view?usp=sharing'>my full resume.</a>
                 </p>
 
                 <article>

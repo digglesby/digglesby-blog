@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "bash path_prod.sh && serverless deploy && bash path_dev.sh",
+    "deploy": "bash path_prod.sh && serverless && bash path_dev.sh",
     "remove": "serverless remove"
   },
   "keywords": [],
@@ -18,8 +18,9 @@
     "@nivo/pie": "^0.70.1",
     "axios": "^0.21.1",
     "md5": "^2.2.1",
-    "next": "^10.2.3",
+    "next": "^9.5.5",
     "next-seo": "4.24.0",
+    "next-server": "^9.0.5",
     "nivo": "^0.31.0",
     "prismjs": "^1.23.0",
     "react": "^16.8.4",
@@ -28,10 +29,10 @@
     "react-ga": "^2.5.7",
     "react-markdown": "^6.0.2",
     "react-prism": "^4.3.2",
-    "serverless-nextjs-plugin": "^1.7.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
+    "@sls-next/serverless-component": "^1.19.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.20.0",

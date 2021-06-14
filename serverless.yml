@@ -1,29 +1,8 @@
-service: personal-blog
-
-provider:
-    name: aws
-    runtime: nodejs12.x
-    profile: blog
-
-plugins:
-  - serverless-nextjs-plugin
-
-custom:
-  serverless-nextjs:
-    nextConfigDir: "./"
-    assetsBucketName: "digglesby-static"
-    staticDir: "./static"
-    customHandler: ./handler.js
-    pageConfig:
-      post:
-        events:
-          - http:
-              path: post/{url}
-              request:
-                parameters:
-                  paths:
-                    url: true
-
-package:
-  exclude:
-    - ./**
+digglesbyBlog:
+  component: "./node_modules/@sls-next/serverless-component"
+  inputs:
+    domain: ["digglesby.com"]
+    domainType: "both"
+    domainRedirects:
+      digglesby.com: https://www.digglesby.com
+    memory: 1024
