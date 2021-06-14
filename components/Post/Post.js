@@ -16,9 +16,9 @@ class Post extends React.Component {
 		return (
 			<article className='blog-post'>
 
-        <Link href={`/post?url=${this.props.url}`} as={`/post/${this.props.url}`} >
+        <Link href={`/post/${this.props.url}`}>
           <h1 className="title">
-            <a href={`/post?url=${this.props.url}`} as={`/post/${this.props.url}`}>{this.props.name}</a>
+            <a href={`/post/${this.props.url}`}>{this.props.name}</a>
           </h1>
         </Link>
 

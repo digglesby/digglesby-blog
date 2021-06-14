@@ -1,13 +1,13 @@
 import React from 'react';
-import TrackingService from '../lib/TrackingService';
-import Layout from '../components/Layout/Layout.js';
-import AboutMeAside from '../components/AboutMeAside/AboutMeAside.js';
-import posts from '../lib/Posts.js';
-import Post from '../components/Post/Post';
+import TrackingService from '../../lib/TrackingService';
+import Layout from '../../components/Layout/Layout.js';
+import AboutMeAside from '../../components/AboutMeAside/AboutMeAside.js';
+import posts from '../../lib/Posts.js';
+import Post from '../../components/Post/Post';
 import {NextSeo} from 'next-seo';
 
 
-import ErrorPage from './_error.js';
+import ErrorPage from '../_error.js';
 
 class PostPage extends React.Component {
   render() {
