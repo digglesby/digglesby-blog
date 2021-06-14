@@ -32,13 +32,13 @@ class Header extends React.Component {
     }
 
     let buttons = [
-      <Link key={0} href='/' prefetch>
+      <Link key={0} href='/'>
 
           <li className='blog'>
             <a href="/">Blog</a>
           </li>
       </Link>,
-      <Link key={1} href='/my-work' prefetch>
+      <Link key={1} href='/my-work'>
 
           <li className='my-work'>
             <a href="/my-work">My Work</a>

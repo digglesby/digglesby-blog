@@ -60,7 +60,7 @@ class PostPage extends React.Component {
       return {
         initialQuote: Math.random(),
         directory: post_directory,
-        post
+        post:post
       };
 
     } catch(err){

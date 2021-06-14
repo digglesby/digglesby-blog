@@ -11,6 +11,8 @@ class Image extends React.Component {
     let src = this.props.src;
     let srcSet = [];
 
+    console.log(this.props.src.startsWith("media"));
+
     if (this.props.src.startsWith("media")){
       let src_parts = this.props.src.split(".");
 

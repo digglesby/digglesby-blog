@@ -23,13 +23,14 @@ class Post extends React.Component {
         </Link>
 
         <ReactMarkdown
-          source={source}
-          renderers={{
+          components={{
             code:Code,
-            image:function(props){ return <Image {...props} p_key={this.props.p_key}  />; }.bind(this),
-            link:function(props){ return <CustomLink {...props} p_key={this.props.p_key}  />; }.bind(this)
+            img:function(props){ return <Image {...props} p_key={this.props.p_key}  />; }.bind(this),
+            a:function(props){ return <CustomLink {...props} p_key={this.props.p_key}  />; }.bind(this)
           }}
-        />
+        >
+          {source}
+        </ReactMarkdown>
       </article>
 		);
   }

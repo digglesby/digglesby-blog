@@ -1,11 +1,11 @@
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 import STATIC_PATH from '../STATIC_PATH.js';
 
 class DocumentTemplate extends Document {
 
   render () {
     return (
-      <html>
+      <Html>
         <Head>
           <script src='https://www.google.com/recaptcha/api.js'></script>
 
@@ -21,7 +21,6 @@ class DocumentTemplate extends Document {
 
           <link rel='stylesheet' type='text/css' href={`${STATIC_PATH}/main.css`} />
           <meta name="google-site-verification" content="oCYauKaDXx_OyEAmxU8VyoQXQVubFt8CBtRXO8JLurw" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <body>
           <Main />
@@ -31,7 +30,7 @@ class DocumentTemplate extends Document {
           <link rel='stylesheet' type='text/css' href={`${STATIC_PATH}/font-awesome-4.7.0/css/font-awesome.min.css`} />
           <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Montserrat:100,100i,300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
         </body>
-      </html>
+      </Html>
     );
   }
 }

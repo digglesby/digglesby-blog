@@ -9,9 +9,10 @@ class Code extends React.Component {
   }
 
   render() {
+
 		return (
-      <PrismCode component='pre' className={'language-'+this.props.language}>
-        {this.props.value}
+      <PrismCode className={'language-'+this.props.language}>
+        {this.props.children[0]}
       </PrismCode>
 		);
   }
