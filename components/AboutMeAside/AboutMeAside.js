@@ -31,8 +31,8 @@ class AboutMeAside extends React.Component {
         </main>
 
         <aside>
-          <img src={`${STATIC_PATH}/me_emoji.jpg`} />
-          <p>My name is Curtis Ward, I made <a href="https://jadeapp.live">Jade</a> a location based chat app for colleges and I&apos;m a junior Management Information Systems student at West Virginia University.</p>
+          <img src={`${STATIC_PATH}/me.jpeg`} />
+          <p>My name is Curtis Ward, I&apos;m a senior Management Information Systems student at West Virginia University graduating in December 2021.</p>
 
           <ul>
             <h2>Recent Posts</h2>

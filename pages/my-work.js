@@ -151,7 +151,7 @@ class MyWork extends React.Component {
 
                 </article>
 
-                <a href="https://docs.google.com/document/d/1vhwH7axBRgfhWjD5VN-RhfLr2CxDIAPINlk-V9Kmfs0/edit?usp=sharing">
+                <a href="https://drive.google.com/file/d/16lBRLFPu2UFYN17_O1qmniHT_ArbR9zW/view?usp=sharing">
                   <button className="cta">
                     View my full resume
                   </button>
